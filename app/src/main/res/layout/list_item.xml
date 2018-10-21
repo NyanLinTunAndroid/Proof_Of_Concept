@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_marginBottom="4dp">
+    <TextView
+        android:id="@+id/job_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Number: 20189"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/accept"
+        android:layout_below="@+id/job_id"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="-4dp"
+        android:layout_marginTop="-4dp"
+        android:text="Accept"
+        android:background="#32d523"
+        android:textAllCaps="false"/>
+    <TextView
+        android:id="@+id/company"
+        android:text="Company: Sheng Shlong Warehouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accept"
+        android:textSize="16dp"
+        android:layout_marginLeft="8dp"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_below="@+id/company"
+        android:layout_marginLeft="8dp"
+        android:text="Address: 56 Cadoedkfoedoed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="16dp"/>
+</RelativeLayout>
